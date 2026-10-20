@@ -30,55 +30,26 @@ Contributions welcome! Open a PR to add/update entries. Keep descriptions factua
 
 ## Table of Contents
 
+- [Sector Overview & Market Dynamics](#sector-overview--market-dynamics)
 - [SaaS/Hosted Platforms](#saas-hosted-platforms)
-
 - [Open-Source GitHub Projects](#open-source-github-projects)
-
 - [How to Contribute](#how-to-contribute)
-
 - [Disclaimer](#disclaimer)
 
+## Sector Overview & Market Dynamics
 
+The global distributed AI computing and AI infrastructure market is estimated at approximately **$260B–$390B in 2025–2026**, projected to grow beyond **$800B+ by the early 2030s** driven by hyperscale cluster expansions and massive multi-node training workloads. The sector displays a **moderately fragmented yet top-heavy concentration dynamic**: hyperscalers and mega-cap platform leaders (Databricks, Snowflake, NVIDIA) dominate core cloud data lakehouses and GPU orchestration layers, while specialized Ray orchestration, distributed MLOps, and task execution tiers maintain active fragmentation driven by rapid open-source innovation.
 
 ## SaaS/Hosted Platforms
 
-
-
-- **Databricks**
-
-  **The lakehouse platform built by the original creators of Apache Spark.** Provides managed Spark, Delta Lake, and MLflow with Unity Catalog governance. **Valuation**: **$190B** after a **$5B** funding round (August 2026) . **Revenue**: surpassed **$7B revenue run-rate** in Q2 2026, growing **80%+ YoY** . **Pricing**: consumption-based (DBUs); quote-only for enterprise.
-
-
-
-- **Snowflake**
-
-  **Cloud data warehouse with AI/ML capabilities.** Features Snowpark for Python/Java/Scala, Cortex AI, and Iceberg support. **Revenue**: **$4.47B** in FY2026 (ended January 2026), **$1.55B** in Q2 FY2027 (July 2026), growing **35% YoY** . **Pricing**: credit-based consumption with transparent unit pricing.
-
-
-
-- **Anyscale**
-
-  **Managed Ray platform** from the creators of Ray. Enables scaling AI workloads from laptops to clusters without infrastructure management. **Valuation**: **$1.38B** (2022 Series C) . **Acquisition**: being acquired by **Nscale** for **$1.65B** (July 2026) . **Pricing**: compute-based (quote-only for enterprise).
-
-
-
-- **Cloudera**
-
-  **Enterprise data platform with lakehouse and AI capabilities.** The surviving Hadoop distribution after the 2018 merger. **Revenue**: private; reported **50%+ YoY growth** in new/expansion business and **100%+ new logo growth** in Q4 FY2026 . **Pricing**: subscription-based (quote-only).
-
-
-
-- **Run:ai (NVIDIA)**
-
-  **GPU orchestration and virtualization platform** for AI infrastructure. **Acquisition**: NVIDIA completed acquisition for **~$700M** (December 2024) and **open-sourced the software** . **Pricing**: enterprise licensing (now available as open source).
-
-
-
-- **Domino Data Lab**
-
-  **Enterprise MLOps platform** for model development, deployment, and governance. **Valuation**: **~$916M** (Series F, August 2025) . **Pricing**: subscription-based (quote-only).
-
-
+| Platform | Description | Company Size (Valuation / Revenue) | Pricing | Free Tier / Trial Limits |
+| :--- | :--- | :--- | :--- | :--- |
+| **Databricks** | Lakehouse platform providing managed Spark, Delta Lake, and MLflow with Unity Catalog governance. | **$190B valuation** (Aug 2026 funding round) / **>$7B revenue run-rate** (80%+ YoY) | Starts at **$0.15/DBU** (Jobs Classic) to **$0.55/DBU** (All-Purpose Classic); Serverless from **$0.35–$0.75/DBU** | **14-day free trial** with up to **$400 in usage credits** (plus fair-use Free Community Edition) |
+| **Snowflake** | Cloud data warehouse & AI/ML platform with Snowpark, Cortex AI, and Apache Iceberg support. | **~$110B market cap** / **$4.47B revenue** (FY2026, 35% YoY) | Starts at **$2.00/credit** (Standard Edition) or **$3.00/credit** (Enterprise Edition) | **30-day free trial** with **$400 in free usage credits** (no credit card required) |
+| **Cloudera** | Enterprise data platform with hybrid lakehouse, distributed analytics, and AI capabilities. | **~$5.3B valuation** (CD&R / KKR private buyout) / **50%+ YoY growth** in new/expansion ARR | Starts at **$0.07/CCU-hr** (Data Warehouse), **$0.15/CCU-hr** (Data Engineering), **$0.20/CCU-hr** (Machine Learning) | **60-day free trial** for CDP Public Cloud / CDP Private Cloud Base evaluation |
+| **Anyscale** | Managed Ray platform enabling scaling AI workloads & distributed training from laptops to clusters. | **$1.65B acquisition valuation** (acquired by Nscale, July 2026) / **$1.38B Series C** | Starts at **$1.00/Anyscale Credit (AC)** (standard node compute); GPU node instances from ~$4.95/hr | **Free tier account** with **$100 in starting credits** to run distributed Ray jobs |
+| **Domino Data Lab** | Enterprise MLOps platform for collaborative distributed model development, training, and governance. | **~$916M valuation** (Series F, August 2025) | Starts at **~$150–$250/user/month** for practitioner seats (plus base platform fee); enterprise custom quotes | **14-day evaluation trial** via dedicated hands-on evaluation environments (e.g., NVIDIA LaunchPad) |
+| **Run:ai (NVIDIA)** | GPU orchestration and virtualization platform for distributed AI workloads on Kubernetes. | **~$700M acquisition valuation** (acquired by NVIDIA, Dec 2024; backed by **NVIDIA's $3T+ market cap**) | Core orchestration is **$0 (Open Source via GitHub)**; commercial enterprise tier starts at **$4,500/GPU/year** | **Free forever open-source core** (KAI scheduler & GPU fractioning operator without node limits) |
 
 ## Open-Source GitHub Projects
 
