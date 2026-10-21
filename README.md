@@ -7,7 +7,7 @@
 <p align="center">
   <a href="https://github.com/ishandutta2007/Awesome-Awesome-Awesome"><img src="https://img.shields.io/badge/Awesome-%E2%9C%94-blueviolet?style=flat-square&logo=github" alt="Awesome"/></a>
   <a href="https://discord.gg/jc4xtF58Ve"><img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" /></a>
-  <a href="https://github.com/ishandutta2007/Awesome-Distributed-AI-Computing/stargazers"><img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-Distributed-AI-Computing?style=flat-square&logo=github" alt="GitHub Stars" /></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Distributed-AI-Computing/stargazers"><img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-Distributed-AI-Computing?style=flat-square&logo=github" alt="GitHub_Stars" /></a>
   <a href="https://github.com/ishandutta2007/Awesome-Distributed-AI-Computing/network/members"><img src="https://img.shields.io/github/forks/ishandutta2007/Awesome-Distributed-AI-Computing?style=flat-square&logo=github" alt="GitHub Forks" /></a>
   <a href="https://github.com/ishandutta2007/Awesome-Distributed-AI-Computing/blob/main/LICENSE"><img src="https://img.shields.io/badge/License-MIT-green.svg?style=flat-square" alt="License" /></a>
   <a href="https://github.com/ishandutta2007"><img alt="GitHub followers" src="https://img.shields.io/github/followers/ishandutta2007?label=Follow" /></a>
@@ -57,63 +57,63 @@ A comprehensive comparison of top commercial platforms powering enterprise distr
 
 The leading open-source frameworks, distributed engines, and orchestration tools for scaling deep learning, LLMs, and Python workloads across clusters. Repositories are strictly sorted in descending order of GitHub stargazers:
 
-- **[vLLM](https://github.com/vllm-project/vllm)** [![GitHub stars](https://img.shields.io/github/stars/vllm-project/vllm?style=social&color=white)](https://github.com/vllm-project/vllm/stargazers)  
+- **[vLLM](https://github.com/vllm-project/vllm)** [![GitHub_Stars](https://img.shields.io/github/stars/vllm-project/vllm?style=social&color=white)](https://github.com/vllm-project/vllm/stargazers)  
   **High-throughput and memory-efficient LLM serving engine** (Apache-2.0). Utilizes **PagedAttention** for near-optimal KV cache memory management, continuous batching, and tensor/pipeline parallel distributed inference across multi-GPU/multi-node clusters.  
   *Best for*: Production distributed LLM inference and serving with state-of-the-art token throughput.
 
-- **[Apache Airflow](https://github.com/apache/airflow)** [![GitHub stars](https://img.shields.io/github/stars/apache/airflow?style=social&color=white)](https://github.com/apache/airflow/stargazers)  
+- **[Apache Airflow](https://github.com/apache/airflow)** [![GitHub_Stars](https://img.shields.io/github/stars/apache/airflow?style=social&color=white)](https://github.com/apache/airflow/stargazers)  
   **Platform to programmatically author, schedule, and monitor workflows** (Apache-2.0) — **the global standard for DAG-based orchestrations**. Integrates natively with Celery, Kubernetes, and cloud compute executors to coordinate heterogeneous distributed machine learning pipelines.  
   *Best for*: Batch data pipelines, scheduled model retraining jobs, and enterprise orchestration DAGs.
 
-- **[Apache Spark](https://github.com/apache/spark)** [![GitHub stars](https://img.shields.io/github/stars/apache/spark?style=social&color=white)](https://github.com/apache/spark/stargazers)  
+- **[Apache Spark](https://github.com/apache/spark)** [![GitHub_Stars](https://img.shields.io/github/stars/apache/spark?style=social&color=white)](https://github.com/apache/spark/stargazers)  
   **Unified analytics engine for large-scale data processing** (Apache-2.0) — **the distributed batch processing standard**. Delivers in-memory computing across petabyte-scale datasets with **Spark SQL**, **Spark Streaming**, **MLlib**, and Python bindings (PySpark).  
   *Best for*: Petabyte-scale distributed ETL, feature engineering, and big-data pipelines before training.
 
-- **[Ray](https://github.com/ray-project/ray)** [![GitHub stars](https://img.shields.io/github/stars/ray-project/ray?style=social&color=white)](https://github.com/ray-project/ray/stargazers)  
+- **[Ray](https://github.com/ray-project/ray)** [![GitHub_Stars](https://img.shields.io/github/stars/ray-project/ray?style=social&color=white)](https://github.com/ray-project/ray/stargazers)  
   **Unified framework for scaling AI and Python applications** (Apache-2.0) — **the modern distributed AI compute standard**. Features **Ray Train** (multi-node distributed training), **Ray Serve** (scalable model serving), **Ray Tune** (distributed hyperparameter optimization), and **Ray Data** (distributed streaming data).  
   *Best for*: Scaling arbitrary Python code, distributed reinforcement learning, and heterogeneous GPU/TPU cluster workloads.
 
-- **[DeepSpeed](https://github.com/deepspeedai/DeepSpeed)** [![GitHub stars](https://img.shields.io/github/stars/deepspeedai/DeepSpeed?style=social&color=white)](https://github.com/deepspeedai/DeepSpeed/stargazers)  
+- **[DeepSpeed](https://github.com/deepspeedai/DeepSpeed)** [![GitHub_Stars](https://img.shields.io/github/stars/deepspeedai/DeepSpeed?style=social&color=white)](https://github.com/deepspeedai/DeepSpeed/stargazers)  
   **Deep learning optimization library that makes distributed training efficient and easy** (Apache-2.0). Pioneered **ZeRO (Zero Redundancy Optimizer)** memory optimization, 3D parallelism (data, pipeline, tensor), and ZeRO-Offload to train models with hundreds of billions of parameters on limited GPU clusters.  
   *Best for*: Pre-training and fine-tuning massive LLMs and transformers with extreme memory efficiency.
 
-- **[Colossal-AI](https://github.com/hpcaitech/ColossalAI)** [![GitHub stars](https://img.shields.io/github/stars/hpcaitech/ColossalAI?style=social&color=white)](https://github.com/hpcaitech/ColossalAI/stargazers)  
+- **[Colossal-AI](https://github.com/hpcaitech/ColossalAI)** [![GitHub_Stars](https://img.shields.io/github/stars/hpcaitech/ColossalAI?style=social&color=white)](https://github.com/hpcaitech/ColossalAI/stargazers)  
   **Unified deep learning system for large-scale parallel AI models** (Apache-2.0). Provides complete multi-dimensional parallel execution (tensor, sequence, pipeline, and ZeRO-3) along with heterogeneous memory management to scale large language models efficiently.  
   *Best for*: Cost-effective training and fine-tuning of multi-billion parameter foundation models.
 
-- **[MLflow](https://github.com/mlflow/mlflow)** [![GitHub stars](https://img.shields.io/github/stars/mlflow/mlflow?style=social&color=white)](https://github.com/mlflow/mlflow/stargazers)  
+- **[MLflow](https://github.com/mlflow/mlflow)** [![GitHub_Stars](https://img.shields.io/github/stars/mlflow/mlflow?style=social&color=white)](https://github.com/mlflow/mlflow/stargazers)  
   **Open-source machine learning lifecycle and AI engineering platform** (Apache-2.0) — **the experiment tracking standard**. Delivers centralized tracking, reproducible packaging, model evaluation, and deployment registries across distributed compute environments.  
   *Best for*: Tracking experiments, artifacts, and metrics across distributed training clusters.
 
-- **[Prefect](https://github.com/PrefectHQ/prefect)** [![GitHub stars](https://img.shields.io/github/stars/PrefectHQ/prefect?style=social&color=white)](https://github.com/PrefectHQ/prefect/stargazers)  
+- **[Prefect](https://github.com/PrefectHQ/prefect)** [![GitHub_Stars](https://img.shields.io/github/stars/PrefectHQ/prefect?style=social&color=white)](https://github.com/PrefectHQ/prefect/stargazers)  
   **Modern workflow orchestration framework designed for Python developers** (Apache-2.0). Converts native Python code into dynamic, distributed workflows with automatic retries, instant scheduling, state transitions, and first-class async concurrency.  
   *Best for*: Resilient data and ML pipelines demanding high velocity and dynamic execution flows.
 
-- **[DVC (Data Version Control)](https://github.com/iterative/dvc)** [![GitHub stars](https://img.shields.io/github/stars/iterative/dvc?style=social&color=white)](https://github.com/iterative/dvc/stargazers)  
+- **[DVC (Data Version Control)](https://github.com/iterative/dvc)** [![GitHub_Stars](https://img.shields.io/github/stars/iterative/dvc?style=social&color=white)](https://github.com/iterative/dvc/stargazers)  
   **Data and model version control system for machine learning projects** (Apache-2.0). Tracks gigabyte-to-terabyte datasets, model weights, and pipeline lineage alongside Git without bloating repository history.  
   *Best for*: Reproducible machine learning experiments and datasets synchronized with distributed object storage.
 
-- **[Kubeflow](https://github.com/kubeflow/kubeflow)** [![GitHub stars](https://img.shields.io/github/stars/kubeflow/kubeflow?style=social&color=white)](https://github.com/kubeflow/kubeflow/stargazers)  
+- **[Kubeflow](https://github.com/kubeflow/kubeflow)** [![GitHub_Stars](https://img.shields.io/github/stars/kubeflow/kubeflow?style=social&color=white)](https://github.com/kubeflow/kubeflow/stargazers)  
   **The Cloud Native Machine Learning Platform for Kubernetes** (Apache-2.0). Provides the **Training Operator** (Kubernetes-native distributed training for PyTorch, TensorFlow, and XGBoost), **Kubeflow Pipelines (KFP)**, and **Katib** for distributed hyperparameter tuning.  
   *Best for*: Cloud-native engineering teams orchestrating end-to-end ML workflows directly on Kubernetes clusters.
 
-- **[Horovod](https://github.com/horovod/horovod)** [![GitHub stars](https://img.shields.io/github/stars/horovod/horovod?style=social&color=white)](https://github.com/horovod/horovod/stargazers)  
+- **[Horovod](https://github.com/horovod/horovod)** [![GitHub_Stars](https://img.shields.io/github/stars/horovod/horovod?style=social&color=white)](https://github.com/horovod/horovod/stargazers)  
   **Distributed deep learning training framework for TensorFlow, Keras, PyTorch, and Apache MXNet** (Apache-2.0). Uses ring-allreduce communication primitives via NCCL/MPI to make distributed data-parallel training fast with minimal code changes.  
   *Best for*: Scaling legacy and existing PyTorch or TensorFlow single-GPU code across multi-node clusters.
 
-- **[Dask](https://github.com/dask/dask)** [![GitHub stars](https://img.shields.io/github/stars/dask/dask?style=social&color=white)](https://github.com/dask/dask/stargazers)  
+- **[Dask](https://github.com/dask/dask)** [![GitHub_Stars](https://img.shields.io/github/stars/dask/dask?style=social&color=white)](https://github.com/dask/dask/stargazers)  
   **Flexible library for parallel and distributed computing in Python** (BSD-3-Clause) — **the NumPy/Pandas-native scaling choice**. Composed of dynamic task scheduling and big-data collections like `dask.array` and `dask.dataframe`.  
   *Best for*: Workflows that outgrow a single machine while maintaining native Python and Pandas syntax.
 
-- **[SkyPilot](https://github.com/skypilot-org/skypilot)** [![GitHub stars](https://img.shields.io/github/stars/skypilot-org/skypilot?style=social&color=white)](https://github.com/skypilot-org/skypilot/stargazers)  
+- **[SkyPilot](https://github.com/skypilot-org/skypilot)** [![GitHub_Stars](https://img.shields.io/github/stars/skypilot-org/skypilot?style=social&color=white)](https://github.com/skypilot-org/skypilot/stargazers)  
   **Intercloud framework for running AI and batch jobs on any cloud** (Apache-2.0). Automatically provisions distributed compute, spots availability for lower-cost GPUs (AWS, GCP, Azure, Lambda, RunPod, OCI), and migrates jobs seamlessly.  
   *Best for*: Multi-cloud GPU cluster orchestration, spot instance cost optimization, and automatic multi-node cluster provisioning.
 
-- **[Hugging Face Accelerate](https://github.com/huggingface/accelerate)** [![GitHub stars](https://img.shields.io/github/stars/huggingface/accelerate?style=social&color=white)](https://github.com/huggingface/accelerate/stargazers)  
+- **[Hugging Face Accelerate](https://github.com/huggingface/accelerate)** [![GitHub_Stars](https://img.shields.io/github/stars/huggingface/accelerate?style=social&color=white)](https://github.com/huggingface/accelerate/stargazers)  
   **PyTorch scaling abstraction library** (Apache-2.0). Enables pure PyTorch code to run across Multi-GPU, Multi-Node, DeepSpeed, and FSDP (Fully Sharded Data Parallel) setups with zero boilerplate modifications.  
   *Best for*: Seamless scaling from local workstations to massive multi-node training clusters.
 
-- **[FairScale](https://github.com/facebookresearch/fairscale)** [![GitHub stars](https://img.shields.io/github/stars/facebookresearch/fairscale?style=social&color=white)](https://github.com/facebookresearch/fairscale/stargazers)  
+- **[FairScale](https://github.com/facebookresearch/fairscale)** [![GitHub_Stars](https://img.shields.io/github/stars/facebookresearch/fairscale?style=social&color=white)](https://github.com/facebookresearch/fairscale/stargazers)  
   **PyTorch extension library for high-performance and large-scale distributed training** (BSD-3-Clause) developed by Meta AI. Offers pioneering implementations of FullyShardedDataParallel (FSDP), pipe parallelism, and gradient accumulation.  
   *Best for*: Research institutions and engineers requiring composable distributed primitives in PyTorch.
 
@@ -139,7 +139,7 @@ Contributions are welcome and highly appreciated! To contribute new projects or 
 1. 🍴 **Fork** this repository.
 2. 🌿 Create a feature branch (`git checkout -b feature/new-distributed-tool`).
 3. 📝 Add or update the project entry in `README.md` keeping alphabetical order or star rank intact.
-4. 🌟 Ensure the star badge format matches `[![GitHub stars](https://img.shields.io/github/stars/{owner}/{repo}?style=social&color=white)](https://github.com/{owner}/{repo}/stargazers)`.
+4. 🌟 Ensure the Stars_Badge format matches `[![GitHub_Stars](https://img.shields.io/github/stars/{owner}/{repo}?style=social&color=white)](https://github.com/{owner}/{repo}/stargazers)`.
 5. 🚀 Submit a pull request with a concise overview of the tool.
 
 ---
@@ -172,3 +172,12 @@ If you find this curated resource helpful for your distributed systems research,
 - Distributed AI platforms handling enterprise data must comply with international data regulations (GDPR, HIPAA, CCPA) and enforce rigorous tenant isolation and encryption standards.
 - **Managed Platform vs. Open Framework**: Managed platforms like Databricks and Snowflake offer turn-key onboarding but variable usage costs; open frameworks like Ray, Spark, and DeepSpeed offer total infrastructure autonomy at the expense of operational complexity.
 - **Ray vs. Spark vs. Dask**: Ray excels at actor-based dynamic distributed Python execution, LLM training, and serving; Spark excels at massive batch ETL and structured query processing; Dask delivers seamless scaling for Python data science (NumPy, Pandas, Scikit-learn).
+
+## ⭐ Star History
+
+<a href="https://star-history.com/#ishandutta2007/Awesome-Distributed-AI-Computing&Timeline" align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="assets/ishandutta2007_Awesome-Distributed-AI-Computing_growth.svg">
+    <img alt="Star History Chart" src="assets/ishandutta2007_Awesome-Distributed-AI-Computing_growth.svg">
+  </picture>
+</a>
